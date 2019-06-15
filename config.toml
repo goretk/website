@@ -1,0 +1,32 @@
+baseurl = "/"
+theme = "cocoa-eh"
+builddrafts = true
+canonifyurls = true
+contentdir = "content"
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+title = "Go Reverse Engineering Tool Kit"
+disqusshortname = ""
+pluralizelisttitles = false
+relativeurls = true
+
+[permalinks]
+blog = "blog/:slug/"
+
+[params]
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+description = "A reverse engineering tool kit for Go binaries"
+# copyright = "Copyright © 2019 The GoRE Team"
+logofile = "img/logo.png"
+faviconfile = ""
+highlightjs = true
+progressively = true
+align_left = false
+lang = "en"
+github = "goretk"
+social_banner = "img/banner.png"
+posts_navigation = true
+small_banner_logo = false
+latestpostcount = 5

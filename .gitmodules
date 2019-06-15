@@ -1,0 +1,6 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:goretk/goretk.github.io.git
+[submodule "themes/cocoa-eh"]
+	path = themes/cocoa-eh
+	url = https://github.com/mtn/cocoa-eh-hugo-theme.git
