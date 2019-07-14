@@ -24,7 +24,7 @@ The tool kit consists of:
 * Core library written in Go
 * C-bindings
 * Python library using the C-bindings
-* A command line tool for easy analysis
+* A [command line tool](/redress) for easy analysis
 
 # Sample outputs
 
