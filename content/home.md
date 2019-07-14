@@ -3,7 +3,20 @@ title: "Home"
 date: 2019-06-14
 draft: false
 ---
+# How to get it?
+
+The Go Reverse Engineering Tool Kit will be released during the week of Black
+Hat US 2019 and DEF CON 27.
+
+If you are going to Black Hat US 2019, come and checkout a live demo as part of
+the [Black Hat
+Arsenal](https://www.blackhat.com/us-19/arsenal/schedule/index.html#the-go-reverse-engineering-tool-kit-16972)
+
+If you are going to DEF CON 27, checkout a live demo as part of DEF CON's [demo
+labs](https://defcon.org/html/defcon-27/dc-27-demolabs.html#Go%20RE%20Toolkit)
+
 # About
+
 The Go Reverse Engineering Tool Kit ([go-re.tk](https://go-re.tk)) is a new open-source toolset for
 analyzing Go binaries. The tool is designed to extract as much metadata as
 possible from stripped binaries to assist in both reverse engineering and
