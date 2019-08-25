@@ -11,3 +11,21 @@ the exported C functions. With this library, it is possible to write bindings
 for other languages that have C foreign function interface (FFI) support.
 [PyGoRE](/pygore) uses this dynamic library to provide a Python library that
 can be used to write tools in Python.
+
+## Example
+
+```c
+#include <stdio.h>
+#include "libgore.h"
+
+int main()
+{
+   int v;
+   char* fp = "/path/to/test/file";
+   v = gore_open(fp);
+   struct compilerVersion* c = gore_getCompilerVersion(fp);
+   printf("Compiler version: %s\n", c->name);
+   gore_close(fp);
+   return 0;
+}
+```
